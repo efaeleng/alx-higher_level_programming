@@ -2,7 +2,7 @@
 def square_matrix_simple(matrix=[]):
     new_matrix = []
 
-    for i in matrix:
-        new_matrix.append(list(map(lambda x: x**2, i)))
+    for num in matrix:
+        new_matrix.append(list(map(lambda x: x**2, num)))
 
     return new_matrix
