@@ -12,6 +12,7 @@
  * float objects
  * @p: pointer to PyObject p
  */
+
 void print_python_float(PyObject *p)
 {
 	double d;
@@ -35,6 +36,7 @@ void print_python_float(PyObject *p)
  * byte objects
  * @p: pointer to PyObject p
  */
+
 void print_python_bytes(PyObject *p)
 {
 	size_t i, bytes;
@@ -67,6 +69,7 @@ void print_python_bytes(PyObject *p)
  * print_python_list - print some basic info about Python lists
  * @p: pointer to PyObject p
  */
+
 void print_python_list(PyObject *p)
 {
 	size_t i, allocated, size;
