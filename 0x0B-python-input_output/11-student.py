@@ -2,6 +2,7 @@
 """ Module that defines the class Student
 """
 
+
 class Student:
     """ Class to create student instances """
 
