@@ -24,17 +24,17 @@ try:
                 if a == i:
                     continue
         if i % 10 == 0:
-            print("File size: {:d}".format(file_size))
+            print(f"File size: {file_size}")
             for key, value in sorted(status_tally.items()):
                 if value:
-                    print("{:s}: {:d}".format(key, value))
-    print("File size: {:d}".format(file_size))
+                    print(f"{key}: {value}")
+    print(f"File size: {file_size}")
     for key, value in sorted(status_tally.items()):
         if value:
-            print("{:s}: {:d}".format(key, value))
+            print(f"{key}: {value}")
 
 except KeyboardInterrupt:
-    print("File size: {:d}".format(file_size))
+    print(f"File size: {file_size}")
     for key, value in sorted(status_tally.items()):
         if value:
-            print("{:s}: {:d}".format(key, value))
+            print(f"{key}: {value}")
